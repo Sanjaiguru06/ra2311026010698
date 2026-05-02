@@ -22,4 +22,4 @@ def get_notification():
     Log("backend","info","handler","fetched notification!")
     return jsonify(notifications)
 
-app.run(debug=True)
+app.run(port=5001,debug=True)
